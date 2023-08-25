@@ -1,5 +1,5 @@
 # Gun Switching
-If you have implemented the gun tutorial found on the [Class Website here ]([https://pages.github.com/](https://sites.google.com/ed.act.edu.au/digital-applications/unity/the-fps-series/fp-shooting)https://sites.google.com/ed.act.edu.au/digital-applications/unity/the-fps-series/fp-shooting) you can add some gun switching with a couple of changes.
+If you have implemented the gun tutorial found on the [Class Website here ](https://sites.google.com/ed.act.edu.au/digital-applications/unity/the-fps-series/fp-shooting) you can add some gun switching with a couple of changes.
 ## gun.cs
 Edit your gun.cs file to match my updated one. This one will scan for a camera object if there is none dragged in, this will help speed up rolling out your amount of guns
 ## gunSwitcher.cs
