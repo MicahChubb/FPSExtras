@@ -12,3 +12,5 @@ You need to add a gunSwitcher script in, make it like mine. **Read the comments 
 ## Fill your list of guns
 - Add different gun objects to your player, all with the camera as a parent
 - Click on the camera and add your gun objects from your hierarchy into your list for your script
+
+**You may want to edit my script to only allow them to use weapons they have unlocked in the game. This will require multiple lists ☺**
