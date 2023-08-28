@@ -33,11 +33,13 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // The below works because they both effectivelie return a number between -1 and 1 and then multiply by run speed
         // Old line:
         // horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
         // New line:
         horizontalMove = controls.Player.Move.ReadValue<float>() * runSpeed;
 
+        // The below works because they both effectively return a boolean, a true/false value
         // Old line:
         // if(Input.GetButtonDown("Jump"))
         // New line:
